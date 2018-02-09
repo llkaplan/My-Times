@@ -1,33 +1,24 @@
 
 .header {
-  display: flex;
-  justify-content: space-between;
-  font-family: Verdana;
-  font-size: 14px;
-  font-weight: bold;
+ display: flex;
+ justify-content: space-between;
 }
 .logo {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  color: MediumAquamarine;
-  font-family: Verdana;
-  font-size: 14px;
-  font-weight: bold;
-  margin-right: 10px;
+display: flex;
+justify-content: space-around;
+align-items: center;
+width: 150px;
 }
 
-.myTimes {
-  align-self: center;
-}
 
 .navigation {
   display: flex;
-  flex-direction: column-reverse;
-  align-self: center;
-  width: 300px;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
 }
 
 span {
-
+  display: inline-block;
+  width: 60px;
 }
