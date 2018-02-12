@@ -2,12 +2,18 @@
 .header {
  display: flex;
  justify-content: space-between;
+ font-family: Verdana;
+ font-size: 14px;
+ font-weight: bold;
+ border-bottom: 1px solid black;
+ height: 80px;
 }
 .logo {
 display: flex;
 justify-content: space-around;
 align-items: center;
 width: 150px;
+color: MediumAquamarine;
 }
 
 
@@ -16,9 +22,90 @@ width: 150px;
   flex-wrap: wrap;
   justify-content: space-between;
   align-items: center;
+  width: 300px;
 }
 
-span {
+span.navItem {
   display: inline-block;
   width: 60px;
+  text-align: center;
+  text-decoration: underline;
+}
+
+div {
+  border: 1px solid black;
+}
+
+.content {
+  display: flex;
+  max-width: 1250px;
+  justify-content: space-between;
+  margin: auto;
+  font-family: Georgia;
+  font-size: 17px;
+  color: black;
+}
+
+.left {
+  display: flex;
+  width: 630px;
+  flex-wrap: wrap;
+  display: inline-block;
+  flex-direction: column;
+
+}
+
+.motherof3 {
+  background-image: url("../Resources/Images/img-story-main.png");
+  background-size: cover;
+  min-height: 300px;
+  font-family: Georgia;
+  font-weight: bold;
+  font-size: 40px;
+  color: white;
+}
+
+.earthSpins {
+  background-image: url("../Resources/Images/img-story-2.png");
+  min-height: 300px;
+  font-family: Georgia;
+  font-weight: bold;
+  font-size: 30px;
+  color: white;
+}
+
+.researchCamera {
+  background-image: url("../Resources/Images/img-story-3.png");
+  min-height: 300px;
+  font-family: Georgia;
+  font-weight: bold;
+  font-size: 30px;
+  color: white;
+}
+
+.center {
+  display: flex;
+  width: 300px;
+  flex-wrap: wrap;
+  display: inline-block;
+}
+
+.catsControl {
+  background-image: url("../Resources/Images/img-story-1.png");
+  min-height: 300px;
+  font-family: Georgia;
+  font-weight: bold;
+  font-size: 30px;
+  color: white;
+}
+
+.right {
+  display: flex;
+  width: 240px;
+  flex-wrap: wrap;
+  display: inline-block;
+}
+
+img {
+  align-self: center;
 }
