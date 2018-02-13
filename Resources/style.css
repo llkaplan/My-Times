@@ -34,6 +34,7 @@ span.navItem {
 
 div {
   border: 1px solid black;
+  display: block;
 }
 
 .content {
@@ -47,36 +48,56 @@ div {
 }
 
 .left {
-  display: flex;
   width: 630px;
-  flex-wrap: wrap;
-  display: inline-block;
   flex-direction: column;
-
+  margin-right: 32px;
 }
+
 
 .motherof3 {
   background-image: url("../Resources/Images/img-story-main.png");
   background-size: cover;
-  min-height: 300px;
+  height: 300px;
+  width: 630px;
   font-family: Georgia;
   font-weight: bold;
   font-size: 40px;
   color: white;
 }
 
+.motherof3content {
+  width: 630px;
+}
+
+.smallStories {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 17px;
+}
+.story {
+  display: flex;
+  flex-direction: column;
+  width: 300px;
+  margin-top: 25px;
+
+  }
+
 .earthSpins {
   background-image: url("../Resources/Images/img-story-2.png");
-  min-height: 300px;
+  height: 300px;
+  margin-top: 25px;
   font-family: Georgia;
   font-weight: bold;
   font-size: 30px;
   color: white;
 }
 
+
 .researchCamera {
   background-image: url("../Resources/Images/img-story-3.png");
-  min-height: 300px;
+  height: 300px;
+  margin-top: 25px;
+  display: block;
   font-family: Georgia;
   font-weight: bold;
   font-size: 30px;
@@ -85,7 +106,7 @@ div {
 
 .center {
   display: flex;
-  width: 300px;
+  max-width: 300px;
   flex-wrap: wrap;
   display: inline-block;
 }
