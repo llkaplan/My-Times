@@ -159,3 +159,20 @@ div {
 img {
   align-self: center;
 }
+
+.footer {
+  background-color: MediumAquamarine;
+  height: 300px;
+  display: flex;
+  margin: auto;
+  margin-top: 50px;
+  justify-content: center;
+  align-items: center;
+  font-family: Verdana;
+  font-size: 12px;
+}
+
+.bottomNav {
+ display: flex;
+ align-items: center;
+}
