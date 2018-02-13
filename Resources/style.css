@@ -1,12 +1,17 @@
 
 .header {
  display: flex;
+ align-items: center;
+ position: fixed;
+ z-index: 1;
+ background-color: white;
  justify-content: space-between;
  font-family: Verdana;
  font-size: 14px;
  font-weight: bold;
  border-bottom: 1px solid black;
  height: 80px;
+ width: 100%;
 }
 .logo {
   display: flex;
@@ -21,7 +26,7 @@
   flex-wrap: wrap;
   justify-content: space-between;
   align-items: center;
-  width: 300px;
+  width: 350px;
 }
 
 span.navItem {
@@ -36,6 +41,7 @@ div {
 }
 
 .content {
+  padding-top: 100px;
   display: flex;
   max-width: 1250px;
   justify-content: space-between;
@@ -163,9 +169,10 @@ img {
 .footer {
   background-color: MediumAquamarine;
   height: 300px;
-  display: flex;
   margin: auto;
   margin-top: 50px;
+  display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
   font-family: Verdana;
@@ -175,4 +182,21 @@ img {
 .bottomNav {
  display: flex;
  align-items: center;
+}
+
+.myTimesFoot {
+  font-family: Georgia;
+  font-size: 16px;
+  font-weight: bold;
+  color: white;
+  display: inline-block;
+  padding-left: 10px;
+}
+
+.navFoot ul {
+  list-style-type: none;
+}
+.navFoot li {
+  display: inline-block;
+  padding: 10px;
 }
